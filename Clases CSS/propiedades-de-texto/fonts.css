@@ -1,24 +1,24 @@
 @font-face {
     font-family: "Dalto";
-    src: url(Montserrat/static/Montserrat-Black.ttf);
+    src: url(Montserrat/static/Montserrat-Black.ttf) format("truetype");
     font-weight: 800;
 }
 
 @font-face {
     font-family: "Dalto";
-    src: url(Montserrat/static/Montserrat-Bold.ttf);
+    src: url(Montserrat/static/Montserrat-Bold.ttf) format("truetype");
     font-weight: 600;
 }
 
 @font-face {
     font-family: "Dalto";
-    src: url(Montserrat/static/Montserrat-Medium.ttf);
+    src: url(Montserrat/static/Montserrat-Medium.ttf) format("truetype");
     font-weight: 400;
 }
 
 @font-face {
     font-family: "Dalto";
-    src: url(Montserrat/static/Montserrat-ExtraLight.ttf);
+    src: url(Montserrat/static/Montserrat-ExtraLight.ttf) format("truetype");
     font-weight: 200;
 }
 
