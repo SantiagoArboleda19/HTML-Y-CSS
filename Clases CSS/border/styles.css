@@ -1,0 +1,22 @@
+div {
+    background: red;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+div {
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    border: 3px solid black;
+    border-radius: 100px;
+}
+
+div {
+    border-top: 5px solid blue;
+    border-bottom: 7px solid blue;
+    border-bottom-left-radius: 0%;
+    border-radius: 0 50px 20px 3px;
+}
