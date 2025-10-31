@@ -1,0 +1,39 @@
+div {
+    background: #ededed;
+    padding: 20px;
+    font-family: sans-serif;
+    border-left: 5px solid #999;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+span {
+    color: #999;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+p {
+    color: #555;
+}
+
+/*
+cm, mm, pulgadas
+Se usan cuando se va a imprimir en la vida real
+Tambien cuando estamos desarrollando una app tactil
+Son medidas fisicas, exactas
+*/
+
+/*
+Unidades relativas
+Dependen de otro valor
+Son importantes para el responsive desing
+%, es respecto a su contenedor
+em, toma tamaño del elemento padre, o hasta el mas padre que tenga definida la propiedad
+rem, toma tamaño del elemento raiz
+vh,
+vw,
+*/
