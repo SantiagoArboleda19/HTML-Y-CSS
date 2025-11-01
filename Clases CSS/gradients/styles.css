@@ -1,0 +1,24 @@
+body {
+    background-color: red;
+    margin: 0;
+}
+
+.box {
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(transparent, #000b);
+    /*background: linear-gradient(to top/bottom/right/left, transparent, #000b);*/
+    margin: 0;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 7px;
+    border-top: 6px solid #900;
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
