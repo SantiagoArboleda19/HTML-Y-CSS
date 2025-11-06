@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Fieldset y legend</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="">
+        <h2>
+            Formulario del Bicho (Habla con el comandante)
+        </h2>
+        <fieldset>
+            <legend>Basic Inf</legend>
+            <!--SIMPLE INPUT-->
+            <div class="form_input">
+                <label for="name">Nombre completo</label>
+                <input type="text" placeholder="Cristiano Ronaldo" id="name">
+            </div>
+            <div class="form_input">
+                <label>Email
+                    <input type="email" placeholder="elbicho@siuuu.com" id="email">
+                </label>
+            </div>
+            <div class="form_input">
+                <label>Topic
+                    <input type="text" placeholder="Topic of the message" id="topic">
+                </label>
+            </div>
+        </fieldset>
+        <!--SELECT & OPTION-->
+        <div class="form_input">
+            <label>Referente
+                <input list="referente" name="referente">
+                <datalist id="referente" name="type-of-user">
+                    <option value="Cristiano">The number 2</option>
+                    <option value="Bicholover">Fans</option>
+                    <option value="Heater">Fuck</option>
+                </datalist>
+            </label>
+        </div>
+        <!--DATALIST & OPTION-->
+        <div class="form_input">
+            <label>Tipo de usuario
+                <select name=type-of-user" id="">
+                    <option value="user1">Seguidor/a</option>
+                    <option value="user2">Empresa</option>
+                    <option value="user2">Otros</option>
+                </select>
+            </label>
+        </div>
+        <!--TEXTAREA-->
+        <div class="form_input">
+            <label>Mensaje
+                <textarea rows="5" placeholder="DILE ALGO BONITO AL BICHO... :("></textarea>
+            </label>
+            <!--readonly, disabled, maxlenght-->
+        </div>
+        <div class="form_input box_checkbox">
+            <label for="check">Acepto los terminos y condiciones</label>
+            <!--readonly, disabled, maxlenght-->
+            <input type="checkbox" id="check" class="checkbox">
+        </div>
+    </form>
+</body>
+</html>
