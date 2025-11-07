@@ -1,0 +1,19 @@
+body {
+    background-color: #333;
+    font-family: sans-serif;
+    color: #eee;
+    margin-top: 100px;
+}
+
+details {
+    border: 2px solid #eee;
+    margin: auto;
+    max-width: 400px;
+    padding: 9px;
+    color: #aaa;
+}
+
+summary {
+    font-size: 1em;
+    color: #eee;
+}
