@@ -1,0 +1,27 @@
+table {
+    width: 100%;
+    border-spacing: 12px;
+    max-width: 400px;
+    box-shadow: 0 0 30px #4446;
+    margin: auto;
+    margin-top: 100px;
+    font-family: sans-serif;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+    font-family: sans-serif;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+td {
+    color: #444;
+    
+}
+
+.spacial {
+    border: none;
+    font-size: 1.2em;
+}
