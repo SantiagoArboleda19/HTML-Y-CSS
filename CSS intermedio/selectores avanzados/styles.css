@@ -1,0 +1,44 @@
+/*SELECTOR POR ATRIBUTO*/
+img[src="FotoSantiagoArboleda.jpeg"] {
+    width: 100%;
+}
+/*
+img[src$="png"] {
+    width: 100%;
+}
+
+img[src^="FotoSantiagoArboleda"] {
+    width: 100%;
+}
+*/
+
+/*SELECTORES DESENDIENTES*/
+ul li {
+    color: gray;
+}
+
+/*SELECTOR POR HIJO DIRECTO*/
+li > em{
+    color: red;
+/*
+h1 > p > p > ul {
+    background-color: red;
+}
+*/
+}
+
+/*SELECTOR DE HERMANO ADYACENTE*/
+h1 + p {
+    color: blue;
+}
+/*
+h1 + p + p + ul {
+    background-color: red;
+}
+*/
+
+/*SELECTOR DE HERMANOS GENERALES*/
+
+h1 ~ p {
+    color: blue;
+}
