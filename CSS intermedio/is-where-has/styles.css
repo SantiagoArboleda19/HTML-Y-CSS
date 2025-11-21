@@ -4,7 +4,7 @@ section .elemento3 {
     color: red;
 }
 
-:is(.elemento1, .elemento2, .elemento3){
+section :is(.elemento1, .elemento2, .elemento3){
     color: blue;
 }
 
