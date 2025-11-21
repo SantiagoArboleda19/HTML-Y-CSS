@@ -1,0 +1,27 @@
+section .elemento1,
+section .elemento2,
+section .elemento3 {
+    color: red;
+}
+
+:is(.elemento1, .elemento2, .elemento3){
+    color: blue;
+}
+
+section :where(.elemento1, .elemento2, .elemento3){
+    color: blue;
+}
+
+section :has(.elemento1) {
+    background-color: black;
+    color: #fff;
+}
+
+/*EN CASO DE QUE A UN UL LE SIGA UN DIV, MODIFICAMOS EL UL*/
+ul:has(+div) {
+    background-color: #000;
+}
+
+label:has(input:valid) {
+    color: green;
+}
