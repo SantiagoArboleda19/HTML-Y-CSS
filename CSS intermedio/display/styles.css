@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.nav {
+    background-color: #48e;
+}
+
+.nav__list {
+    margin: 0;
+    text-align: center;
+}
+
+.nav__item {
+    display: inline-block;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    background-color: #48e;
+}
+
+.nav__link:hover {
+    background-color: #59e;
+}
+
+.link--buton {
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 6px 18px;
+    color: #48e;
+    border-radius: 3px;
+    margin-left: 80px;
+    /*display: none;*/
+}
+
+.link--buton:hover {
+    background: transparent;
+    color: #fff;
+}
+/*
+div {
+    padding: 20px;
+    background-color: #999;
+}
+
+
+p {
+    background-color: #000;
+    color: #fff;
+    display: inline;
+    margin: 5px;/*Le chupa un huevo verticalmente
+    padding: 10px;/*Le chupa un huevo verticalmente
+    height: 100px;/*Le chupa un huevo
+    width: 100px;/*Le chupa un huevo
+}
+*/
+/*
+a {
+    background-color: #f00;
+    color: #fff;
+    border: 1px solid #000;
+    margin: 20px;
+    padding: 20px;
+    opacity: 0.6;
+    display: block;
+}*/
