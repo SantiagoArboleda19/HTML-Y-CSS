@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.box {
+    width: 150px;
+    background-color: #f00;
+    margin: auto;
+    margin-top: 60px;
+    padding: 10px;
+    border: 5px solid #000;
+    outline-width: 6px;
+    outline-color: #00f;
+    outline-style: solid;
+    outline-offset: 10px;
+}
