@@ -41,3 +41,21 @@ p {
     box-shadow: 0 0 40px #0009;
     z-index: 30;
 }
+
+.box-fixed {
+    height: 60px;
+    width: 200px;
+    background-color: #f00;
+    position: sticky;
+    top: 100px;
+    z-index: 40;
+    box-sizing: border-box;
+}
+
+.first {
+    top: 30px;
+}
+
+.last {
+    top: 170px;
+}
