@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
+    background-color: #ccc ;
 }
 
 .box {
@@ -10,8 +11,32 @@ body {
     margin-top: 60px;
     padding: 10px;
     border: 5px solid #000;
-    outline-width: 6px;
+    /*outline-width: 6px;
     outline-color: #00f;
     outline-style: solid;
-    outline-offset: 10px;
+    outline-offset: 10px;*/
+}
+
+.box:hover {
+    outline: 5px solid #000;
+}
+
+input {
+    margin-top: 50px;
+    margin-left: 421.5px;
+    border: none;
+    border-top: 3px solid #000;
+    outline: 3px solid #00f;
+    outline-offset: 15px;
+    padding: 6px;
+    transition: outline .2s, outline-offset .2s;
+}
+
+input:focus {
+    border-color: #00f;
+    color: #00f;
+}
+
+input:focus-visible {
+    outline: none;
 }
