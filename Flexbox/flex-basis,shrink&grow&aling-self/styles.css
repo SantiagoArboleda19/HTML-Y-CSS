@@ -21,6 +21,7 @@ div, body {
 .flex-item:nth-child(2n) {
     background-color: #f77;
 }
+
 .flex-item {
     background-color: #800;
     color: #fff;

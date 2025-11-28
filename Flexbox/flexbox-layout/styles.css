@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: #05f;
+}
+
+body, div, header, nav, ul, h1, h2, p, li, img {
+    box-sizing: border-box;
+}
+
+.header {
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-image: url(https://media.diariolasamericas.com/p/058c616a25cc7ddaa12ae251a417aefd/adjuntos/216/imagenes/000/959/0000959515/855x0/smart/barcelonajpg.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.header__overlay{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #01c6;
+    position: absolute;
+    z-index: 1;
+}
+
+.header__item-conteiner{
+    position: relative;
+    z-index: 10;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    max-width: 700px;
+}
+
+.header__item-conteiner p {
+    text-wrap: pretty;
+}
+
+.header__img{
+    min-width: 150px;
+    min-height: 40%;
+    border-radius: 50%;
+    border-radius: 20%;
+    margin: 20px 0; 
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 3.6rem;
+    text-wrap: balance;
+}
+
+/*NAVBAR SECTION*/
+
+.nav {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 8px 20px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 30px #000f;
+}
+
+.nav__ul {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+.nav__item{
+    list-style: none;
+}
+
+.nav__logo {
+    width: 50px;
+}
+
+.nav__ul-conteiner{
+    flex-grow: 5;
+    text-align: center;
+}
+
+.nav__logo-conteiner {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav__link {
+    color: #05f;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 8px;
+    border-radius: 0;
+    transition: background-color 0.24s, border-radius .19s, outline .2s, outline-offset .2s;
+    margin: 2px;
+    outline: 0;
+    outline-offset: 0;
+    
+}
+
+.nav__link:hover{
+    background-color: #05f3;
+    border-radius: 20px;
+    outline: 2px solid #05f;
+    outline-offset: -5px;
+}
+
+.link--login {
+    color: #fff;
+    background-color: #05f;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 8px 20px;
+}
+
+.link--login:hover{
+    background-color: #05f7;
+    outline: none;
+}
+
+/*MAIN*/
+
+main {
+    max-width: 700px;
+    margin: auto;
+    font-size: 30px;
+    text-wrap: pretty;
+}

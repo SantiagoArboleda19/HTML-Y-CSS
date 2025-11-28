@@ -10,7 +10,7 @@ div, body {
 .flexbox {
     display: flex;
     /*flex-direction: row;
-    flex-wrap: wrap;*/
+    flex-wrap: wrap; balance; pretty*/
     border: 2px solid #000;
     flex-flow: row wrap;
     margin: 20px;
