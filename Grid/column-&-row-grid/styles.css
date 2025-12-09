@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body, div {
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));/*auto-fill//auto-fit*/
+    grid-auto-rows: 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: row;
+    margin: auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: #48e;
+    font-size: 30px;
+    max-width: 100%;
+    border-radius: 16px;
+}
+
+.grid-item:first-child{
+    /*grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: span 2;
+    grid-row-end: span 2;*/
+    grid-column: 1/ span 2;
+    grid-row: 1/ span 2;
+    background-image: url(FotoSantiagoArboleda.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-item:hover {
+    opacity: 0.74;
+}
