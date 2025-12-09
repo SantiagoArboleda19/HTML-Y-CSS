@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.grid {
+    display: grid;
+    height: 70vh;
+    grid-template-columns: repeat(3, 1fr)  minmax(300px, 500px);
+    grid-template-rows: repeat(2, auto) 4fr;
+}
+
+.grid-item {
+    background-color: #48e;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    color: #fff;
+}
