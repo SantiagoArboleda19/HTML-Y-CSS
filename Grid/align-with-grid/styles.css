@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body, div {
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(1, 250px);
+    gap: 10px;
+    padding: 10px;
+
+    /*MUEVE LOS ELEMENTOS EN LA CELDA, Eje X ó Horizontal*/
+    justify-items: stretch; /*Start,
+    self-start: Le importa la dirección de los elementos hijo, 
+    left: Le chupa un huevo la dirección de los elementos hijo (a favor de la dirección del text),
+    center: El nombre lo dice centra los elementos (reducidos),
+    right: Siempre se alinea a la derecha de su celda,
+    end: Le chupa un huevo la dirección de los elementos hijos (a favor de la dirección del text), 
+    self-end: Le importa la dirección de los elementos hijo, 
+    baseline, first baseline, last baseline, 
+    stretch: Opción por defecto*/
+
+    /*MUEVE LAS CELDAS EN EL CONTENEDOR GRID, NO LOS ELEMENTOS, Eje X ó Horizontal*/
+    justify-content: center; /*start, center, end, space-around, space-between, space-evenly*/
+
+    /*MUEVE LOS ELEMENTOS EN LA CELDA, Eje Y ó Vertical*/
+    align-items: center;
+
+    /*MUEVE LAS CELDAS EN EL CONTENEDOR GRID, NO LOS ELEMENTOS, Eje Y ó Vertical*/
+    align-content: baseline;
+
+    /*
+    justify-self
+    align-self
+    */
+
+    height: 350px;
+    border: 2px solid #000;
+    margin: 40px;
+}
+
+.grid-item {
+    background-color: #48e;
+    color: #fff;
+    font-size: 30px;
+    max-width: 100%;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.grid-item:hover {
+    opacity: 0.74;
+}
