@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ccc;
+}
+
+body, div {
+    box-sizing: border-box;
+}
+
+.crecedor {
+    height: 100vh;    
+}
+
+.box {
+    view-timeline: --cajita block;
+    background-color: #48e;
+    padding: 20px;
+    animation: llenar-barra;
+    animation-fill-mode: both;
+    animation-timeline: --cajita;
+    animation-timing-function: linear;
+    animation-range-start: cover 20%; /*CONTAIN,  */
+    animation-range-end: cover 80%;
+    /* ------- BUSCAR ------- */
+    /* VIEW PROGRESS TIMELINE RANGE VISUALIZER*/
+}
+
+@keyframes llenar-barra {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
