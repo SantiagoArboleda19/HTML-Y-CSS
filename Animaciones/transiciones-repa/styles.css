@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ccc;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.box {
+    margin: 20px;
+    background-color: #fff;
+    border: 3px solid #48e;
+    padding: 6px;
+    border-radius: 39px;
+    transition: border-color 1s;
+}
+
+.barra {
+    padding: 40px;
+    background-color: #48e;
+    border-radius: 30px;
+    width: 10%;
+    transition: width 1s steps(7), background-color 1s steps(7);/*linear*/
+}
+
+.barra:active {
+    width: 100%;
+    transition-duration: 2s;
+    background-color: #f33;
+}
+
+.box:has(.barra:active) {
+    border-color: #f33;
+    transition-duration: 2s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .barra, .box {
+        transition: none /*o bajo el tiempo de la animación*/;
+    }
+}
