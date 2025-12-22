@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #fff;
+}
+
+img {
+    max-width: 100%;
+    clip-path: circle(50% at 0px 0px);
+    border: 10px solid #f44;
+}
+
+/*BUSCAR CLIP-PATH EN CSS PARA ENTENDER MEJOR*/

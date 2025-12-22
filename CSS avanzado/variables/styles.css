@@ -1,0 +1,57 @@
+:root {
+    --color-principal: #48e;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    padding: 20px;
+    --color-principal: #48e;
+    --tamaño-principal: 2.4rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    --color-principal: #f33;
+    display: grid;
+    place-content: center;
+    color: #fff;
+    margin: 100px auto;
+    font-size: 30px;
+    padding: 0px 40px;
+    width: clamp(400px, 100%, 1400px);
+    font-size: clamp(2.4rem, 2.2vw, 4rem);
+    border: 6px solid #000;
+}
+
+.box:first-child {
+    background-color: var(--color-principal);
+}
+.box:nth-child(2) {
+    color: var(--color-principal);
+    border: 6px solid var(--color-principal);
+}
+
+h1 {
+    font-style: 2.2rem;
+    margin-bottom: 0;
+}
+
+body > p {
+    color: var(--color-principal);
+    font-size: 2rem;
+}
+
+.box p {
+    --color-principal: #4f4;
+    color: var(--color-principal);
+}
+
+@property --color-principal {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #48e;
+}

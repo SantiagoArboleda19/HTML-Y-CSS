@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+}
+
+.box {
+    background-color: #48e;
+    margin: auto;
+    padding: 20px 50px;
+    /*filter: drop-shadow(0px 0px 15px #000);*/
+    /* 
+    blur(1px ó 1rem): Desenfocar - Se aplica al lemento y a sus hijos, sin importar su posicion...
+    brightness(0.5 ó 0 ó 1 etc...): Agrega brillo al elemento
+    contrast(0 ó 1 ó 2...): agrega contraste daaaaa, con 0 todo es igual es decir no hay contraste
+    grayscale(0 ó 1....): lleva la imagen a la escala de grises
+    saturate(0 ó 1....): agrega la saturación.....
+    hue-rotate(100deg): mueve el color la cantidad especificada en la función en la paleta de colores
+    opacity...
+    invert(): invierte los colores al que esta al frente en la paleta de colores
+    sepia(): pone todo en color sepia
+
+    SE PUEDE APLICAR MAS DE UN FILTRO... EL ORDEN ES IMPORTANTE
+    */
+    backdrop-filter: blur(1);/*Esto crea una capa trasera que toma esta propiedades con respecto a lo que hay destras del elemento*/
+}
+
+/*
+img {
+    filter: drop-shadow(0px 0px 15px #000);
+}
+*/
